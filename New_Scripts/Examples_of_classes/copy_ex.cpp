@@ -6,6 +6,7 @@ using namespace std;
 
 
 class Rational {
+    
 public:
     Rational(int n, int d) : num(n), den(d) {
 
