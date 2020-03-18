@@ -38,7 +38,7 @@ ostream& Date::operator<<(ostream& ostr, const Date& date) {
             "January", "February", "March", "May",
             "June", "July", "August", "September", "November",
             "December"};
-    ostr << month_name[date.month] << ":" << day_name[date.day] << ":" << date.year;
+        ostr << month_name[date.month] << ":" << day_name[date.day] << ":" << date.year;
     return ostr;
     // Here is the emcapsulation in the next lines of the code
 
